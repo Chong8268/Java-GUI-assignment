@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 header {
-    background-color: #333;
+    background-color: #0b2f6b;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -15,8 +15,16 @@ header {
 }
 
 .logo {
+
+    display: flex;
+    align-items: center;
     font-size: 24px;
     font-weight: bold;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
 }
 
 nav ul {
@@ -37,13 +45,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f4b400;
+    color: #5aa3f0;
 }
 
 .banner {
     text-align: center;
     background: url('banner.jpg') no-repeat center center/cover;
-    color: white;
+    color: black;
     padding: 80px 20px;
     font-size: 24px;
     font-weight: bold;
@@ -66,7 +74,8 @@ nav ul li a:hover {
 }
 
 .category, .book {
-    background-color: #ffcc00;
+    background-color: #0b2f6b;
+    color: white;
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
@@ -77,11 +86,11 @@ nav ul li a:hover {
 
 .category:hover, .book:hover {
     transform: scale(1.1);
-    background-color: #f4b400;
+    background-color: #5aa3f0;
 }
 
 footer {
-    background-color: #333;
+    background-color: #0b2f6b;
     color: white;
     text-align: center;
     padding: 15px 0;
