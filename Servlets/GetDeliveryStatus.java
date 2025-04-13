@@ -38,7 +38,7 @@ public class GetDeliveryStatus extends HttpServlet {
         out.println("<h2>Your Delivery Status:<h2>");
         out.println("Order ID:" + orderID + "<br>");
         out.println("Product List " + productName + "<br>");
-        out.println("Total Price:" + totalPrice + "<br>");
+        out.println("Total Price:" + "RM" + totalPrice + "<br>");
         out.println("Delivery Date:" + deliveryDate + "<br>");
         out.println("Status:" + status + "<br>");
         out.println("Courier:" + courier + "<br>");
@@ -51,4 +51,3 @@ public class GetDeliveryStatus extends HttpServlet {
    
 
 }
-
