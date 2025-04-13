@@ -1,52 +1,53 @@
+/* Base Colors */
+.bg-blue {
+  background-color: cadetblue;
+}
+
 /* Navbar */
-.navbar {
+.nav-main {
   padding: 1rem;
+}
+
+.brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white ;
 }
 
 .nav-link {
-  color: white;
+  color: white ;
   margin-left: 1rem;
-  text-decoration: none;
+  transition: 0.3s;
 }
 
-/* Card */
-.card {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 8px;
-  background: white;
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #ffeb3b; /* Yellow on hover */
 }
 
-.card-img {
-  width: 100%;
-  height: auto;
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: #f0f8ff;
 }
 
-.card-body h5 {
-  font-size: 1.1rem;
+.dropdown-item {
+  color: #222;
 }
 
-.price {
-  color: green;
-  font-weight: bold;
+.dropdown-item:hover {
+  background-color: #d3f3f3;
 }
 
-.btn {
-  background: #007bff;
-  color: white;
-  text-align: center;
-  display: block;
-  padding: 0.5rem;
-  text-decoration: none;
-  border-radius: 5px;
+/* Container */
+.box {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 1rem;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .nav-link {
-    display: block;
     margin: 0.5rem 0;
   }
 }
-
